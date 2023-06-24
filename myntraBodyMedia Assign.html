@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myntraBodyMedia queries</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #screen {
+            width: 100%;
+            /* border: 1px solid red; */
+        }
+
+        #navbar {
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+
+        #body {
+            display: flex;
+            justify-content: space-between;
+            font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        #body>div:nth-child(1) {
+            width: 17%;
+            border: 1px solid grey;
+
+
+        }
+
+        #body>div:nth-child(2) {
+            width: 81%;
+            /* border: 3px solid green; */
+        }
+
+        #body>div:nth-child(1)>div {
+            border-bottom: 1px solid grey;
+            margin-left: 20px;
+
+        }
+
+        #body>div:nth-child(1)>div>h4 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        #body>div:nth-child(1)>div>input,
+        label {
+            margin-bottom: 15px;
+        }
+
+        #product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: 1px solid grey;
+        }
+
+        #product>div {
+            width: 18%;
+            height: 370px;
+            margin-bottom: 20px;
+        }
+
+        #product>div:hover {
+            border: 1px solid black;
+        }
+
+        #product>div>img {
+            width: 100%;
+            height: 75%;
+        }
+
+        #product>div>h4,
+        p {
+            margin-left: 20px;
+            margin-bottom: 4px;
+        }
+
+        #product>div>h4:nth-child(2) {
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">screen
+        <div id="navbar">navbar</div>
+        <div id="body">
+            <!-- 1st child -->
+            <div>
+                <div>
+                    <h4>CATEGORIES</h4>
+                    <input type="checkbox" />
+                    <label>Tshirts(96180)</label><br>
+                    <input type="checkbox" />
+                    <label>Lounge Tshirts(1064)</label>
+                </div>
+
+                <div>
+                    <h4>BRAND</h4>
+                    <input type="checkbox" />
+                    <label>Roadster(3996)</label><br>
+                    <input type="checkbox" />
+                    <label>Friskers(2569)</label><br>
+                    <input type="checkbox" />
+                    <label>U.S. Polo Assn.(1746)</label><br>
+                    <input type="checkbox" />
+                    <label>Tommy Hilfiger(1700)</label><br>
+                    <input type="checkbox" />
+                    <label>Jack & Jones(1609)</label><br>
+                    <input type="checkbox" />
+                    <label>Puma(1507)</label><br>
+                    <input type="checkbox" />
+                    <label>Being Human(1290)</label><br>
+
+                </div>
+
+                <div>
+                    <h4>PRICE</h4>
+                    <input type="checkbox" />
+                    <label>Rs. 149 to Rs. 862(4332)</label><br>
+                    <input type="checkbox" />
+                    <label>Rs. 862 to Rs. 1575(827)</label><br>
+                    <input type="checkbox" />
+                    <label>Rs. 1575 to Rs. 2288(86)</label><br>
+                    <input type="checkbox" />
+                    <label>Rs. 2288 to Rs. 3001(20)</label><br>
+                </div>
+
+            </div>
+
+            <div id="product">
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/9/cf5b0a84-0a2f-43cf-899f-6c7163af0bcf1617966955694-1.jpg"/>
+                    <h4>HIGHLANDER</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs299</h4>
+                </div>
+
+                <div>
+
+                    <img
+                        src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg" />
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs299</h4>
+                </div>
+
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19243714/2022/8/17/7366199d-05fd-4807-b302-90a7ef021e241660735367876USPoloAssnMenYellowAndWhiteStripedTailoredFitPureCottonCasua1.jpg"/>
+                    <h4>Puma</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.1299</h4>
+                </div>
+
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18982498/2022/9/27/e3e55c48-d3d8-424f-8701-b391fafb25cf1664256092626-Better-Crew-7931664256092288-1.jpg"/>
+                    <h4>Puma</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.299</h4>
+                </div>
+
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg"/>
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.299</h4>
+                </div>
+                <div>
+                    <img src=""/>
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.299</h4>
+                </div>
+
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg" />
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.299</h4>
+                </div>
+
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg" />
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.299</h4>
+                </div>
+
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg" />
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.299</h4>
+                </div>
+
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg" />
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4>Rs.299</h4>
+                </div>
+
+                <div>
+                    <img
+                        src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11545192/2022/3/25/626b0419-cbb0-4200-8490-67e20a0021c51648208612203-Roadster-Men-Green--White-Printed-Round-Neck-Pure-Cotton-T-s-1.jpg" />
+                    <h4>Roadster</h4>
+                    <p>T-shirt</p>
+                    <h4> Rs.299</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
